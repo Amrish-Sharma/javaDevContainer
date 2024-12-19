@@ -39,6 +39,18 @@ VS Code will build the container and start your development environment inside i
 
 You can customize the dev container by modifying the `devcontainer.json` file and the Dockerfile. For example, you can add additional tools, change the JDK version, or modify VS Code settings.
 
+### Configuration
+
+The `devcontainer.json` file is used to configure the development container. Here is a summary of its contents:
+
+- **name**: The name of the development container.
+- **build**: Specifies the Dockerfile used to build the container.
+- **settings**: VS Code settings for the development container.
+- **extensions**: List of VS Code extensions to be installed in the container.
+- **postCreateCommand**: Command to be run after the container is created.
+- **remoteUser**: The user to use in the container.
+- **portsAttributes**: Port configuration for the container.
+
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
